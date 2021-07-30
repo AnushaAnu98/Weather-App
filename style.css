@@ -1,0 +1,73 @@
+*{ 
+    box-sizing:border-box
+  }
+#h{
+color:rgb(255, 102, 0);
+font-size: 40px;
+text-align: left;
+padding-top: 15px;
+width: auto;
+margin-left: 40px;
+margin-top: 50px;
+padding-right: 5%;
+}
+form{
+    margin:100px 50px 20px 50px;
+ }
+.box{
+    text-align: center;
+}
+input[type=text]{
+    font-size: 20px;
+    padding: 3px 2px ;
+    margin: auto;
+    border-color: orange;
+}
+#search{
+    background-color: rgb(255, 102, 0);
+    font-size: 16px;
+    padding: 5px 3px;
+}
+
+.child {
+    width: 10%;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    padding-left: 10px;
+    border: 5pxsolid blue;
+    border-collapse: collapse;
+    float: left;
+
+}
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px 15px 15px 15px;
+}
+#caption1{
+    border: 1px solid black;
+    background-color: orangered;
+    padding: 20px 20px 20px 20px;
+}
+#caption2{
+    border: 1px solid black;
+    background-color: rgb(209, 206, 206);
+    padding: 20px 20px 20px 20px;
+}
+
+#min ,#xx{
+    background-color: rgb(209,206,206);
+    padding: 20px 20px 20px 20px;
+}
+#p , #r{
+    background-color: rgb(241, 236, 227);
+    padding: 20px 20px 20px 20px;
+}
+#flex-container {
+    display: flex ;
+    line-height: 5px;
+    flex-wrap:wrap;
+    text-align : center;
+    
+}
